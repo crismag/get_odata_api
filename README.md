@@ -5,6 +5,7 @@ Description:
 Note:
    -This is relesed for tcl script demo only. Script package set is stripped down version.
    - Customer specific.
+   - Some packages deleted
    - To delete after demo.
 
 Check files:
