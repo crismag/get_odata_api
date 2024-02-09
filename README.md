@@ -1,2 +1,9 @@
 # get_odata_api
-Command line api for heroku odata consumer, For demo only. Stripped down version, incomplete code.
+Description: 
+      API release for heroku odata access from commandline.
+
+Note:
+   -This is relesed for tcl script demo only. Script package set is stripped down version.
+   - Customer specific.
+   - To delete after demo.
+
