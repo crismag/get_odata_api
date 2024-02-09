@@ -7,3 +7,6 @@ Note:
    - Customer specific.
    - To delete after demo.
 
+Check files:
+- **lib/app-main/main.tcl**
+- **lib/gethero/getHeroData.tcl**
