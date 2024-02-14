@@ -11,8 +11,6 @@
 #    Mocked-up user agent
 #    SSL Bypassed host verification to avoid certificate errors
 #    SSL Bypassed peer verification to avoid certificate errors
-#    Hardcoded cadadm cred for proxy or uses netrc. 
-#    Requires netrc if used by other location where cadadm not valid user.
 #
 # Last revision:
 #    0.0.1 - xxx                   | Early releases
@@ -243,7 +241,7 @@ itcl::class getHeroData {
         dict set newconfig -headervar response(headervar)
         dict set newconfig -errorbuffer response(err_buff)
         dict set newconfig -failonerror 1
-        dict set newconfig -proxyuserpwd cadadm:0kf0ruse
+        dict set newconfig -proxyuserpwd something:password12345
         dict set newconfig -sslverifyhost 0
         dict set newconfig -sslverifypeer 0
         putdebug loaded_config=<$newconfig>
